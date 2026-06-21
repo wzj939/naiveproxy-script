@@ -17,6 +17,7 @@
 ## 安装方法
 下载并安装最新 Release 版本到 root 目录：
 ```bash
-wget -O /root/naive.sh https://github.com/<你的GitHub用户名>/<你的仓库名>/releases/latest/download/naiveproxy.sh
-chmod +x /root/naive.sh
-ln -sf /root/naive.sh /usr/local/bin/naive
+wget -O /root/naive.sh https://github.com/<你的GitHub用户名>/naiveproxy-script/releases/latest/download/naive.sh && chmod +x /root/naive.sh && ln -sf /root/naive.sh /usr/local/bin/naive
+
+直接运行：
+naive
