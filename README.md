@@ -21,3 +21,10 @@ wget -O /root/naive.sh https://github.com/<你的GitHub用户名>/naiveproxy-scr
 
 直接运行：
 naive
+
+## 更新脚本
+
+除了在菜单中选择 **8. 更新脚本** 外，你也可以直接在命令行执行一键更新命令组合：
+
+```bash
+wget -O /root/naive.sh https://github.com/<你的GitHub用户名>/naiveproxy-script/releases/latest/download/naive.sh && chmod +x /root/naive.sh && ln -sf /root/naive.sh /usr/local/bin/naive
