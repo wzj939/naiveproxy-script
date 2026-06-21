@@ -22,4 +22,4 @@
 一键安装命令组合（下载、赋权、软链接三步合并）：
 
 ```bash
-wget -O /root/naive.sh https://github.com/wzj939/naiveproxy-script/releases/latest/download/naive.sh && chmod +x /root/naive.sh && ln -sf /root/naive.sh /usr/local/bin/naive
+wget -O /root/naive.sh https://github.com/wzj939/naiveproxy-script/releases/latest/download/naive.sh && chmod +x /root/.naive.sh && ln -sf /root/naive.sh /usr/local/bin/naive
